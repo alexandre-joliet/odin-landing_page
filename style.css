@@ -6,7 +6,7 @@ body {
 
 .header {
     background-color: #1F2937;
-    padding: 10px;
+    padding: 5px 100px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -29,4 +29,45 @@ a {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px; 
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 100px;
+    background-color: #1F2937;
+}
+
+.top-left {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    width: 75px;
+    padding: 5px 10px;
+    margin: 10px 0px;
+    background-color: #3882f6;
+    color: white;
+    border: 0px solid #3882f6;
+    border-radius: 7px;
+}
+
+.top-title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin: 0px;
+}
+
+.top-paragraph {
+    color: #E5E7EB;
+    font-size: 18px; 
+}
+
+.top-picture {
+    width: 400px;
+    height: 250px;
+    margin-left: 100px;
 }
