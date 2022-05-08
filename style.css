@@ -108,9 +108,30 @@ button {
     gap: 15px;
 }
 
-
 .pic-text {
     text-align: center;
     color: #1F2937;
     font-size: 18px;
+}
+
+.middle-2 {
+    background-color: #E5E7EB;
+    padding: 100px;
+}
+
+.quote,
+.quote-author {
+    color: #1F2937;
+}
+
+.quote {
+    text-align: justify;
+    font-size: 36px;
+}
+
+.quote-author {
+    text-align: right;
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 25px;
 }
