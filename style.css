@@ -116,7 +116,11 @@ button {
 
 .middle-2 {
     background-color: #E5E7EB;
-    padding: 100px;
+    padding: 0px 100px;
+    height: 426px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .quote,
