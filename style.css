@@ -116,7 +116,7 @@ button {
 
 .middle-2 {
     background-color: #E5E7EB;
-    padding: 0px 100px;
+    padding: 0px 400px;
     height: 426px;
     display: flex;
     flex-direction: column;
@@ -138,4 +138,40 @@ button {
     font-size: 18px;
     font-weight: 700;
     padding-top: 25px;
+}
+
+.bottom {
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.bottom-shape {
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 250px;
+}
+
+
+.bottom-title {
+    font-size: 22px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.bottom-subtext {
+    font-size: 18px;
+    color: white;
+    font-weight: 300;
+}
+
+.button-bottom {
+    border: 1px solid white;
 }
