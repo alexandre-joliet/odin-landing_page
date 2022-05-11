@@ -129,7 +129,7 @@ button {
 }
 
 .quote {
-    text-align: justify;
+    text-align: left;
     font-size: 36px;
 }
 
@@ -174,4 +174,11 @@ button {
 
 .button-bottom {
     border: 1px solid white;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 25px;
 }
