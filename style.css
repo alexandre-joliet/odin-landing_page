@@ -83,6 +83,7 @@ button {
 .middle-1 {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 50px;padding-bottom: 50px;
 }
 
@@ -116,11 +117,12 @@ button {
 
 .middle-2 {
     background-color: #E5E7EB;
-    padding: 0px 400px;
+    padding: 0px 200px;
     height: 426px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex-shrink: 0;
 }
 
 .quote,
