@@ -122,7 +122,6 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    flex-shrink: 0;
 }
 
 .quote,
